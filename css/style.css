@@ -19,7 +19,14 @@ body {
     float: right;
 }
 
+.menu ul {
+    height: 100%;
+}
 .menu li {
     list-style:none;
-    
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    height: 30px;
 }
