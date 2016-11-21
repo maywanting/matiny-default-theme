@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background-color:#EEEEEE;
+    height:70px;
+    margin: 0;
+    padding: 15px 15%;
+}
+
+.blog-name {
+    font-size: 40px;
+    float: left;
+    margin:auto 0;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    list-style:none;
+    
+}
