@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Helvetica Neue","Helvetica","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
+    font-family: "Microsoft YaHei","Helvetica Neue","Helvetica","WenQuanYi Micro Hei",Arial,sans-serif;
     font-size: 16px;
     color : #222222;
 }
@@ -15,8 +15,9 @@ body {
 .blog-name {
     font-size: 40px;
     float: left;
-    margin:auto 0;
+    margin-top:-10px;
     height: 100%;
+    color: #555;
 }
 
 .menu {
@@ -25,11 +26,27 @@ body {
 }
 
 .menu a {
-    margin-top: 15px;
+    padding-top: 15px;
     display: inline-block;
     width: 80px;
     text-align: center;
-    height: 30px;
+    height: 40px;
+    text-decoration: none;
+    color: #444;
 }
 
-a 
+a:hover{
+    color:#2196F3;
+}
+
+#body {
+    margin: 40px auto;
+    max-width: 850px;
+    display: block;
+}
+
+#body .article {
+    display: block;
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
+    margin: 60px 0;
+}
