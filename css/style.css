@@ -6,10 +6,13 @@ body {
 }
 
 #header {
+    position: fixed;
     height:55px;
+    width: 70%;
     margin: 0;
     padding: 10px 15% 0px 15%;
     box-shadow: 0 0 1px rgba(0,0,0,.15);
+    background-color: #FFF;
 }
 
 .blog-name {
@@ -21,6 +24,7 @@ body {
 }
 
 .menu {
+    position: float;
     float: right;
     height: 100%;
 }
@@ -40,13 +44,65 @@ a:hover{
 }
 
 #body {
-    margin: 40px auto;
+    margin: 0px auto;
     max-width: 850px;
     display: block;
 }
 
 #body .article {
     display: block;
-    box-shadow: 0 0 1px rgba(0,0,0,.15);
-    margin: 60px 0;
+    padding: 60px 0;
+    border-top: 0.1px solid #EEE;
+}
+
+.article * {
+    display:block;
+    margin: 15px 0;
+}
+
+.article .head {
+    font-size: 30px;
+    color: #444;
+    cursor: pointer;
+}
+
+.article .head:hover {
+    color: #2196F3;
+}
+
+.article .time {
+    font-size: 13px;
+    color: #777;
+}
+
+#page ul {
+    height: 40px;
+    margin: 0px auto;
+    max-width: 850px;
+}
+
+#page ul li {
+    display: block;
+    float: left;
+    width: 30px;
+}
+
+#page ul .page-link {
+    cursor: pointer;
+}
+
+#page ul .page-link:hover {
+    color: #2196F3;
+}
+
+#footer {
+    min-height: 50px;
+    color: #666;
+    border-top: 0.1px solid #EEE;
+    width: 100%;
+}
+
+#footer .framework {
+    margin: 10px auto;
+    width: 200px;
 }
