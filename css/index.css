@@ -9,7 +9,7 @@ body {
     position: fixed;
     height:55px;
     width: 70%;
-    margin: 0;
+    margin-top: -55px;
     padding: 10px 15% 0px 15%;
     box-shadow: 0 0 1px rgba(0,0,0,.15);
     background-color: #FFF;
@@ -24,7 +24,6 @@ body {
 }
 
 .menu {
-    position: float;
     float: right;
     height: 100%;
 }
@@ -40,11 +39,11 @@ body {
 }
 
 a:hover{
-    color:#2196F3;
+    color:#2ca6cb;
 }
 
 #body {
-    margin: 0px auto;
+    margin: 55px auto 0px auto;
     max-width: 850px;
     display: block;
 }
@@ -62,12 +61,12 @@ a:hover{
 
 .article .head {
     font-size: 30px;
-    color: #444;
+    color:#2ca6cb;
     cursor: pointer;
 }
 
 .article .head:hover {
-    color: #2196F3;
+    color: #2ca6cb;
 }
 
 .article .time {
@@ -92,7 +91,7 @@ a:hover{
 }
 
 #page ul .page-link:hover {
-    color: #2196F3;
+    color: #2ca6cb;
 }
 
 #footer {

@@ -1,0 +1,25 @@
+#article {
+	padding-top: 10px;
+}
+
+#article h1 {
+    color: #2ca6cb;
+    border-bottom: 2px solid #EEE;
+    font-weight: normal;
+}
+
+#article h2 {
+    color: #222;
+    border-bottom: 2px solid #EEE;
+    font-weight: normal;
+}
+
+#article p {
+    color: #444;
+}
+
+#article blockquote {
+    border-left: 3px solid #2ca6cb;
+    margin: 16px 0px;
+    padding-left: 10px;
+}
