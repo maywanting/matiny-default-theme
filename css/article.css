@@ -14,6 +14,11 @@
     font-weight: normal;
 }
 
+#article h3 {
+    color: #222;
+    font-weight: normal;
+}
+
 #article p {
     color: #444;
 }
@@ -22,4 +27,13 @@
     border-left: 3px solid #2ca6cb;
     margin: 16px 0px;
     padding-left: 10px;
+}
+
+#article pre {
+    background-color: #eee;
+    padding: 20px;
+}
+
+#article code {
+    display: box;
 }
