@@ -75,9 +75,11 @@ a:hover{
 }
 
 #page ul {
+    padding: 0;
     height: 40px;
-    margin: 0px auto;
+    margin: 5px auto;
     max-width: 850px;
+    border-top: 0.1px solid #EEE;
 }
 
 #page ul li {
