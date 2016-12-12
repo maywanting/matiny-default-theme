@@ -35,11 +35,10 @@ body {
     text-align: center;
     height: 40px;
     text-decoration: none;
-    color: #444;
+    color:#2ca6cb;
 }
 
 a:hover{
-    color:#2ca6cb;
 }
 
 #body {
@@ -74,25 +73,31 @@ a:hover{
     color: #777;
 }
 
-#page ul {
+#page .row{
     padding: 0;
     height: 40px;
     margin: 5px auto;
     max-width: 850px;
-    border-top: 0.1px solid #EEE;
+    border-top: 0.1px dashed #EEE;
+    text-align: center;
 }
 
-#page ul li {
-    display: block;
-    float: left;
-    width: 30px;
+#page .left {
+    float:left;
 }
 
-#page ul .page-link {
+#page .right {
+    float: right;
+}
+
+#page .row span {
+    display: inline-block;
+    min-width: 30px;
+    margin:0 5px;
+}
+
+#page .row .page-link {
     cursor: pointer;
-}
-
-#page ul .page-link:hover {
     color: #2ca6cb;
 }
 
