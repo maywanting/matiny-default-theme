@@ -42,6 +42,7 @@
 #comment {
     margin: 10px auto;
     max-width: 850px;
+    color: #444;
 }
 
 #comment .comment-content {
@@ -58,20 +59,22 @@
     width: 100%;
     /* background-color: #777; */
     min-height: 100px;
-    display: inline-block;
-    border-bottom: 1px solid #EEE;
-    border-top: 1px solid #EEE;
-    margin: 0;
+    display: inline;
+    border-bottom: 0.1px solid #EEE;
+    border-top: 0.1px solid #EEE;
+    margin: 0 0 -7px 0;
+    padding: 10px 0;
 }
 
 #comment .floor .return {
-    margin: 0 0 0 100px;
+    margin: 0 0 -7px 100px;
     min-width: 750px;
     /* background-color: #AAA; */
     min-height: 100px;
     display: inline-block;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
+    /* border-top: 1px solid #EEE; */
+    border-bottom: 0.1px solid #EEE;
+    padding: 10px 0;
 }
 
 #comment .photo {
@@ -96,4 +99,64 @@
 
 #comment .floor {
     display: block;
+}
+
+#comment .comment-info div{
+    min-width: 100px;
+    display: inline;
+    margin: 0px 5px;
+}
+
+#comment .comment-body {
+    margin: 5px 0 0 5px;
+}
+
+#comment .comment-name {
+    color: #2ca6cb;
+}
+
+#comment .comment-time {
+    color: #BBB;
+    font-size: 14px;
+}
+
+#comment .comment-func {
+    color: #BBB;
+    cursor:pointer;
+}
+
+#comment .comment-func:hover {
+    display: inline;
+    color: #2ca6cb;
+}
+
+#comment .input-info {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+}
+#comment .input-text {
+    max-width: 33%;
+    min-width: 30%;
+    margin: 0;
+    height: 100%;
+    padding: 0 1%;
+    border: 0.1px solid #EEE;
+}
+
+#comment .input-comment {
+    min-width: 840px;
+    height: 60px;
+    border: 0.1px solid #EEE;
+    padding: 5px;
+}
+
+#comment .input-text:focus, #comment .input-comment:focus {
+    border: 0.1px solid #2ca6cb;
+}
+
+#comment .submit-button {
+    border: 1px solid #2ca6cb;
+    width: 80px;
+    height: 30px;
 }
