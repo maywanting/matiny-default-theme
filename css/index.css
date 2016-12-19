@@ -80,6 +80,7 @@ a:hover{
     max-width: 850px;
     border-top: 0.1px dashed #EEE;
     text-align: center;
+    padding-top: 20px;
 }
 
 #page .left {
