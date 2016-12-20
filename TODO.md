@@ -5,9 +5,11 @@
 # next version to do
 - comment : support hiding the return comment
 - article : add the menu of the article
-- add friend's lin  k
+- add friend's link
 - add category
 - add tags, and the tags cloud
-- change the index page style: add more details such as comment numbers and category and tags
+- index: add more details such as comment numbers and category and tags
+- support other languages
+- article: highlight of the code
 
 Why do I use English to write TODO. Because my computer don't have such input method which supports Chinese!!!!!
