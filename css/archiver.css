@@ -1,0 +1,64 @@
+#archiver {
+    padding: 10px 0;
+}
+
+#archiver .archiver-sum {
+    color: #444;
+    margin-top: 20px;
+    padding: 20px 0;
+    min-height: 30px;
+}
+
+#archiver .archiver-banner {
+    display: block;
+    position: relative;
+    border-left: 4px solid #eee;
+    border-bottom: 1px dashed #ccc;
+    min-height: 25px;
+}
+
+#archiver .archiver-header {
+    padding: 40px 0 3px 0;
+}
+
+#archiver .archiver-second {
+    padding: 20px 0 3px 0;
+}
+
+#archiver .archiver-point {
+    position: absolute;
+    content: " ";
+    background-color: #999;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: 29px;
+    left: 0px;
+    margin-left: -5px;
+}
+
+#archiver .archiver-time {
+    position: relative;
+    padding-left: 24px;
+    float: left;
+    font-size: 11px;
+    top: 6px;
+}
+
+#archiver .archiver-number {
+    padding: 0 8px;
+}
+
+#archiver .archiver-func {
+    padding: 0 5px;
+    color: #2ca6cb;
+}
+
+#archiver .archiver-title {
+    padding-left: 24px;
+}
+
+#archiver .archiver-title:hover {
+    color: #2ca6cb;
+    cursor: pointer;
+}
