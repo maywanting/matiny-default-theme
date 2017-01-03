@@ -10,6 +10,9 @@
 # version 1.1.0
 - some needes javascript
 
+# version 1.2.0
+- add matiny version to suit my blog system
+
 # version 2.0.0
 - after matiny system finished will be ready to do
 
