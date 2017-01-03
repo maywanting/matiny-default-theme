@@ -30,13 +30,15 @@
 }
 
 #article pre {
-    background-color: #eee;
+    background-color: #f2f8f9;
+    border-left: 3px solid #a2e5fa;
     padding: 20px;
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
 }
 
 #article code {
     display: box;
-    color: #444;
+    color: #336699;
 }
 
 #comment {
