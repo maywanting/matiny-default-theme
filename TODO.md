@@ -1,9 +1,19 @@
-# next things to do
+# version 1.0.0
+>- add index page
+>- change page number style
+>- add article page
+>- change article style
+>- add comment
 >- add archiver page
-- there are two kinds of archiver: one is time, second is category.
-- add buttons: read more | category/time
+>- add buttons: read more
 
-# next version to do
+# version 1.1.0
+- some needes javascript
+
+# version 2.0.0
+- after matiny system finished will be ready to do
+
+# ready to do
 - comment : support hiding the return comment
 - article : add the menu of the article
 - add friend's link
@@ -13,5 +23,7 @@
 - support other languages
 - article: highlight of the code
 - add return top of the page button
+- replace words to icons, the words looks so unelegent;
+- there are two kinds of archiver: one is time, second is category.
 
 Why do I use English to write TODO. Because my computer don't have such input method which supports Chinese!!!!!
